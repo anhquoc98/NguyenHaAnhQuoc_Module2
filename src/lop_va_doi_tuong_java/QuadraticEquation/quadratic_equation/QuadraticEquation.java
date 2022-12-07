@@ -2,8 +2,6 @@ package lop_va_doi_tuong_java.QuadraticEquation.quadratic_equation;
 
 import java.util.Scanner;
 
-import static lop_va_doi_tuong_java.QuadraticEquation.quadratic_equation.QuadraticEquation1.ptBacHai;
-
 public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,7 +11,14 @@ public class QuadraticEquation {
         double b = Integer.parseInt(scanner.nextLine());
         System.out.println("Input c:");
         double c = Integer.parseInt(scanner.nextLine());
-        ptBacHai( a, b, c);
-        System.out.println();
+        QuadraticEquation1 equation = new QuadraticEquation1(a, b, c);
+        if (equation.delta() >= 0) {
+            System.out.println("Phương trình có 2 nghiệm x1 =" + equation.getX1() + "x2 =" + equation.getX2());
+        } else if (equation.delta() == 0) {
+            System.out.println("Phương trình có 1 nghiệm x ="+equation.getX());
+        }
+        else {
+            System.out.println("Phương trình vô nghiệm");
+        }
     }
 }

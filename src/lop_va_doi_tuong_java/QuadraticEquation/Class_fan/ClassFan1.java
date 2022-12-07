@@ -41,6 +41,22 @@ public class ClassFan1 {
         this.speed=speed;
     }
 
+    public int getSLOW() {
+        return SLOW;
+    }
+
+    public int getMEDIUM() {
+        return MEDIUM;
+    }
+
+    public int getFAST() {
+        return FAST;
+    }
+
+    public boolean isTurn() {
+        return turn;
+    }
+
     public void setRadius(double radius) {
         this.radius = radius;
     }
