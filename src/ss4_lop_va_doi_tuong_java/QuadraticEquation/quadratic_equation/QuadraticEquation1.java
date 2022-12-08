@@ -61,5 +61,4 @@ public class QuadraticEquation1 {
     public double getX(){
         return -this.b/2*this.a;
     }
-
 }
