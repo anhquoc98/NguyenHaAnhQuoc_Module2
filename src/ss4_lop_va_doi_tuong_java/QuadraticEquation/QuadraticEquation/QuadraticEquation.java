@@ -11,7 +11,7 @@ public class QuadraticEquation {
         double b = Integer.parseInt(scanner.nextLine());
         System.out.println("Input c:");
         double c = Integer.parseInt(scanner.nextLine());
-        QuadraticEquation1 equation = new QuadraticEquation1(a, b, c);
+        lop_va_doi_tuong_java.QuadraticEquation.quadratic_equation.QuadraticEquation1 equation = new lop_va_doi_tuong_java.QuadraticEquation.quadratic_equation.QuadraticEquation1(a, b, c);
         if (equation.delta() >= 0) {
             System.out.println("Phương trình có 2 nghiệm x1 =" + equation.getX1() + "x2 =" + equation.getX2());
         } else if (equation.delta() == 0) {
