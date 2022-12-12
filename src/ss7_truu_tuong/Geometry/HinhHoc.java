@@ -1,4 +1,4 @@
-package ss7_truu_tuong.geometry;
+package ss7_truu_tuong.Geometry;
 
 public abstract class HinhHoc implements Resizeable {
     public String color ;

@@ -1,8 +1,4 @@
-package ss7_truu_tuong.geometry;
-
-import ss7_truu_tuong.geometry.HinhHoc;
-import ss7_truu_tuong.geometry.Rectangle;
-import ss7_truu_tuong.geometry.Square;
+package ss7_truu_tuong.Geometry;
 
 public class Text {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ss7_truu_tuong.geometry;
+package ss7_truu_tuong.Geometry;
 public class Circle extends HinhHoc implements Resizeable{
     public double r;
     public double area;
