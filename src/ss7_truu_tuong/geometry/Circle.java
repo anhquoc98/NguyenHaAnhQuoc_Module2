@@ -1,38 +1,39 @@
-package ss7_truu_tuong;
-
-public class Square extends HinhHoc implements Resizeable{
-    public double x;
+package ss7_truu_tuong.geometry;
+public class Circle extends HinhHoc implements Resizeable{
+    public double r;
     public double area;
     public double perimeter;
 
-    public Square(String color, double x) {
+    public Circle(String color, double r) {
         super(color);
-        this.x = x;
+        this.r = r;
     }
 
-    public Square() {
+    public Circle(double r) {
+        this.r = r;
     }
 
-    public double getX() {
-        return x;
+    public double getR() {
+        return r;
     }
 
-    public void setX(double x) {
-        this.x = x;
+    public void setR(double r) {
+        this.r = r;
     }
 
     public double getArea() {
-        return this.x*this.x;
+        return this.r*this.r*Math.PI;
     }
 
     public void setArea(double area) {
-        this.area = area;
+        this.area =area;
+
     }
 
     @Override
     public String toString() {
-        return "Square{" +
-                "x=" + x +
+        return "Circle{" +
+                "r=" + r +
                 ", area=" + area +
                 ", perimeter=" + perimeter +
                 ", color='" + color + '\'' +
@@ -42,5 +43,6 @@ public class Square extends HinhHoc implements Resizeable{
     @Override
     public void resize(double percent) {
         System.out.println(getArea()*percent);
+
     }
 }

@@ -1,18 +1,19 @@
-package ss7_truu_tuong;
+package ss7_truu_tuong.geometry;
 
-public class Rectangle extends HinhHoc implements Resizeable{
+import ss7_truu_tuong.geometry.HinhHoc;
+import ss7_truu_tuong.geometry.Resizeable;
+
+public class Square extends HinhHoc implements Resizeable {
     public double x;
-    public double y;
     public double area;
     public double perimeter;
 
-    public Rectangle(String color, double x, double y) {
+    public Square(String color, double x) {
         super(color);
         this.x = x;
-        this.y = y;
     }
 
-    public Rectangle() {
+    public Square() {
     }
 
     public double getX() {
@@ -23,28 +24,18 @@ public class Rectangle extends HinhHoc implements Resizeable{
         this.x = x;
     }
 
-    public double getY() {
-        return y;
-    }
-
-    public void setY(double y) {
-        this.y = y;
-    }
-
     public double getArea() {
-        return this.x*this.y;
+        return this.x*this.x;
     }
 
     public void setArea(double area) {
         this.area = area;
     }
 
-
     @Override
     public String toString() {
-        return "Rectangle{" +
+        return "Square{" +
                 "x=" + x +
-                ", y=" + y +
                 ", area=" + area +
                 ", perimeter=" + perimeter +
                 ", color='" + color + '\'' +
