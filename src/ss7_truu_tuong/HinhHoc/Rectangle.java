@@ -35,10 +35,10 @@ public class Rectangle extends Shape implements Colorable {
     @Override
     public void howToColor() {
         if (isFill()){
-            System.out.println(this.color+"Color all four sides");
+            System.out.println(this.color+"Color all four sides Area:"+getArea());
         }
         else {
-            System.out.println("No Color");
+            System.out.println("No Color Area:" +getArea());
         }
     }
 

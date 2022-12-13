@@ -1,20 +1,20 @@
 package ss6_ke_thua.Circle;
 
 public class Circle {
-    private float r;
+    private float banKinh;
     private String color;
 
-    public Circle(float r, String color) {
-        this.r = r;
+    public Circle(float banKinh, String color) {
+        this.banKinh = banKinh;
         this.color = color;
     }
 
-    public float getR() {
-        return r;
+    public float getBanKinh() {
+        return banKinh;
     }
 
-    public void setR(float r) {
-        this.r = r;
+    public void setBanKinh(float banKinh) {
+        this.banKinh = banKinh;
     }
 
     public String getColor() {
@@ -31,7 +31,7 @@ public class Circle {
     @Override
     public String toString() {
         return "Circle{" +
-                "r=" + r +
+                "r=" + banKinh +
                 ", color='" + color + '\'' +
                 '}';
     }

@@ -1,31 +1,29 @@
 package ss6_ke_thua.Circle;
 
-import ss6_ke_thua.Circle.Circle;
-
 public class Cylinder extends Circle {
-    private float h;
+    private float chieuCao;
 
-    public float getH() {
-        return h;
+    public float getChieuCao() {
+        return chieuCao;
     }
 
-    public void setH(float h) {
-        this.h = h;
+    public void setChieuCao(float chieuCao) {
+        this.chieuCao = chieuCao;
     }
 
-    public Cylinder(float r, String color, float h) {
+    public Cylinder(float r, String color, float chieuCao) {
         super(r, color);
-        this.h = h;
+        this.chieuCao = chieuCao;
     }
 
-    public Cylinder(float h) {
-        this.h = h;
+    public Cylinder(float chieuCao) {
+        this.chieuCao = chieuCao;
     }
 
     @Override
     public String toString() {
         return "Cylinder{" +
-                "h=" + h + super.toString()+
+                "h=" + chieuCao + super.toString()+
                 '}';
     }
 }
