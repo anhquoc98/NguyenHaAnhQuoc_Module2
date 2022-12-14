@@ -1,8 +1,6 @@
 package ss10_arraylist_linkerlist;
 
-import java.util.ArrayList;
-
-public class textArrayList {
+public class TextArrayList {
     public static class ClassStudent{
         private int id;
         private String name;
