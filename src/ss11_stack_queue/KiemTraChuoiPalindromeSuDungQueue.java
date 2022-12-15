@@ -16,15 +16,15 @@ public class KiemTraChuoiPalindromeSuDungQueue {
             elementQ.offer(string.charAt(i)+"");
             elementS.push(string.charAt(i)+"");
         }
-        boolean kiemTra =true;
+        boolean result =true;
         for (int i = 0; i <string.length() ; i++) {
             String queue =elementQ.poll();
             String stack =elementS.pop();
             if (!queue.equals(stack)){
-                kiemTra =false;
+                result =false;
             }
         }
-        if (kiemTra){
+        if (result){
             System.out.println("Là chuỗi palindrome");
         }
         else {
