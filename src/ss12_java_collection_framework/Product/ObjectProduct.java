@@ -1,5 +1,9 @@
 package ss12_java_collection_framework.Product;
 
+import ss12_java_collection_framework.Model.Product;
+
+import java.util.Comparator;
+
 public class ObjectProduct {
     int id;
     String NameString;
@@ -35,7 +39,6 @@ public class ObjectProduct {
                 ", NameString='" + NameString + '\'' +
                 '}';
     }
-    public static int display(ObjectProduct o) {
-        return o.getId();
-    }
+
+
 }

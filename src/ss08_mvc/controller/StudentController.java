@@ -3,6 +3,7 @@ package ss08_mvc.controller;
 import ss08_mvc.model.Student;
 import ss08_mvc.service.IStudentService;
 import ss08_mvc.service.StudentServiceImpl;
+import ss12_java_collection_framework.Product.ObjectProduct;
 
 import java.util.Scanner;
 
@@ -34,7 +35,7 @@ public class StudentController {
                     service.addStudent(new Student(id, name));
                     break;
                 case 3:
-                    System.exit(0);
+                    System.out.println();
                     break;
             }
         } while (true);
