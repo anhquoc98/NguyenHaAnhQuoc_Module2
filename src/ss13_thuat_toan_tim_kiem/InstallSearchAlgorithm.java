@@ -21,12 +21,19 @@ public class InstallSearchAlgorithm {
         return -1;
     }
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        Scanner scanner =new Scanner(System.in);
+        int numberLength =Integer.parseInt(scanner.nextLine());
+        int[] array = new int[numberLength];
+        for (int i = 0; i <array.length ; i++) {
+            int value =Integer.parseInt(scanner.nextLine());
+            array[i]=value;
+        }
+        Arrays.sort(array);
         System.out.println("Mảng có các phần tử");
         System.out.println(Arrays.toString(array));
-        Scanner scanner =new Scanner(System.in);
         System.out.println("Bạn kiếm phần tử số mấy");
         int number =Integer.parseInt(scanner.nextLine());
+        System.out.println("vị trí bạn tìm kiếm ở vị trí :");
         System.out.println(Arrays.binarySearch(array,number));
     }
 }
