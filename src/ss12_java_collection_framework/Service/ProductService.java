@@ -1,12 +1,10 @@
 package ss12_java_collection_framework.Service;
 
 import ss12_java_collection_framework.Model.Product;
+import ss12_java_collection_framework.reprository.ProductRepository;
 
 public class ProductService extends Product implements ProductServiceInterface {
-    @Override
-    public ProductService[] findAll() {
-        return new ProductService[0];
-    }
+    ProductRepository productRepository =new ProductRepository();
 
     @Override
     public void addProduct(Product product) {
@@ -18,10 +16,7 @@ public class ProductService extends Product implements ProductServiceInterface {
 
     }
 
-    @Override
-    public void menu() {
 
-    }
 
     @Override
     public void change(int index, Product product) {
