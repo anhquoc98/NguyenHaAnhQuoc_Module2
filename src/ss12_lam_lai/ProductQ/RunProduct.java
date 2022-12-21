@@ -1,4 +1,4 @@
-package thuat_toan_tim_kiem.ProductQ;
+package ss12_lam_lai.ProductQ;
 
 public class RunProduct {
 //    public static void main(String[] args) {

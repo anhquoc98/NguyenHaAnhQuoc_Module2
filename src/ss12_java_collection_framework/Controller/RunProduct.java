@@ -1,7 +1,6 @@
-package ss12_lam_lai.Controller;
+package ss12_java_collection_framework.Controller;
 
 import ss12_lam_lai.Model.Product;
-import ss12_lam_lai.Model.Repository.ProductRepo;
 import ss12_lam_lai.Model.Service.ProductSer;
 
 import java.util.Scanner;
