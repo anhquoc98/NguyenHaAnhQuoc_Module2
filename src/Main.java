@@ -1,12 +1,24 @@
-import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList vals = new ArrayList();
-        vals.add(3.5);
-        vals.add(4.5);
-        vals.add(5.5);
-        vals.add(vals.set(1,2.5)) ;
-        System.out.println(vals);
+//        Scanner scanner = new Scanner(System.in);
+//        String a = scanner.nextLine();
+//
+//
+//        String newstr= String.valueOf(a.toLowerCase().split(" "));
+//        for (int i=0;i<newstr.length();i++){
+//            if (newstr[i] !=""){
+//                newstr[i]=newstr[i][0].toUpperCase()+newstr[i].slice(1);
+//            }
+//        }
+//
+//        List<String> arrays2 = new ArrayList<>();
+//a.toUpperCase(Locale.ROOT).equals(char);
+//        for (int i = 0; i < a.length(); i++) {
+//            arrays2.add(a);
+//        }
+
     }
+
 }
