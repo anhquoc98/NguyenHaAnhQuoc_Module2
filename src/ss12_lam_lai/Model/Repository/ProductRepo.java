@@ -38,6 +38,6 @@ public class ProductRepo implements IPropuctRepo {
 
     @Override
     public void sort() {
-productSer.sort();
+        productSer.sort();
     }
 }

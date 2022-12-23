@@ -1,4 +1,4 @@
-package ss12_lam_lai.ProductQ;
+package ss12_java_collection_framework.ProductQ;
 
 public class ObjectProduct {
 //    int id;
