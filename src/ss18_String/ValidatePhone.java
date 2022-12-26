@@ -3,7 +3,7 @@ package ss18_String;
 import java.util.Scanner;
 
 public class ValidatePhone {
-    private static String VALIDATEPHONE ="^(090|091|\\\\(84\\\\)\\\\+90|\\\\(84\\\\)\\\\+91)[\\\\d]{7}$";
+    private static String VALIDATEPHONE ="^[(]+[0-9]{2}+[)]+[-]+[(]+[0]+[0-9]{9}+[)]$";
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
         String phone =scanner.nextLine();
