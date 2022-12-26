@@ -1,4 +1,4 @@
-package ss17_IOBinary_Serializtion.ManagerProduct.Contror.model;
+package ss17_IOBinary_Serializtion.ManagerProduct.Contror.Model;
 
 import java.io.Serializable;
 

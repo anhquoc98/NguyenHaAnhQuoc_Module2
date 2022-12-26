@@ -1,7 +1,7 @@
 package ss17_IOBinary_Serializtion.ManagerProduct.Contror;
 
-import ss17_IOBinary_Serializtion.ManagerProduct.Contror.model.Product;
-import ss17_IOBinary_Serializtion.ManagerProduct.Contror.server.Productsev;
+import ss17_IOBinary_Serializtion.ManagerProduct.Contror.Model.Product;
+import ss17_IOBinary_Serializtion.ManagerProduct.Contror.Service.Productsev;
 
 import java.util.Scanner;
 

@@ -1,18 +1,20 @@
 package ss16_IOFile.CopyFileText;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
-public class RunObjectStudent {
+public class CopyList {
+
+    public static final String FILE_PATH = "D:\\Codegyme\\module2\\untitled\\src\\ss16_IOFile\\CopyFileText\\Number.csv";
+    public static final String FILE_PATH1 = "D:\\Codegyme\\module2\\untitled\\src\\ss16_IOFile\\CopyFileText\\NewFile.csv";
+
     public static void readList() {
 
         try {
-            FileReader fileReader = new FileReader("D:\\Codegyme\\module2\\untitled\\src\\ss16_IOFile\\CopyFileText\\Number.csv");
+            FileReader fileReader = new FileReader(FILE_PATH);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             int count = 0;
             int readChar;
-            FileWriter fileWriter =new FileWriter("D:\\Codegyme\\module2\\untitled\\src\\ss16_IOFile\\CopyFileText\\NewFile.csv");
+            FileWriter fileWriter =new FileWriter(FILE_PATH1);
             BufferedWriter bufferedWriter=new BufferedWriter(fileWriter);
             while ((readChar = bufferedReader.read()) != -1) {
                 count++;

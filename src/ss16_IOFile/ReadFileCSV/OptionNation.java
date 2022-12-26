@@ -9,9 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OptionNation {
+
+    public static final String FILE_PATH = "D:\\Codegyme\\module2\\untitled\\src\\ss16_IOFile\\ReadFileCSV\\OptionNation.csv";
+
     public static List<Nation> readNation() throws IOException {
         List<Nation> nationList = new ArrayList<>();
-        FileReader fileReader = new FileReader("D:\\Codegyme\\module2\\untitled\\src\\ss16_IOFile\\ReadFileCSV\\OptionNation.csv");
+        FileReader fileReader = new FileReader(FILE_PATH);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line ;
         String[] temp ;

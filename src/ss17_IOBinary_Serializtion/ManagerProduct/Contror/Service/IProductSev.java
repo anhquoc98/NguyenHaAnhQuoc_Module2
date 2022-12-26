@@ -1,6 +1,6 @@
-package ss17_IOBinary_Serializtion.ManagerProduct.Contror.server;
+package ss17_IOBinary_Serializtion.ManagerProduct.Contror.Service;
 
-import ss17_IOBinary_Serializtion.ManagerProduct.Contror.model.Product;
+import ss17_IOBinary_Serializtion.ManagerProduct.Contror.Model.Product;
 
 public interface IProductSev {
     void add(Product product);

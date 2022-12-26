@@ -1,6 +1,6 @@
 package ss17_IOBinary_Serializtion.ManagerProduct.Contror.Repository;
 
-import ss17_IOBinary_Serializtion.ManagerProduct.Contror.model.Product;
+import ss17_IOBinary_Serializtion.ManagerProduct.Contror.Model.Product;
 
 import java.io.*;
 import java.util.ArrayList;
